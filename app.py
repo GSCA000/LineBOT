@@ -16,8 +16,8 @@ import json
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi("9z7WqVYeoYfJW/lV+OPX8I2XUzmk8XWkgp9jYMZacYgZ++a9f/P8wRUIDImCrd7pgFqbIkDatcfLT7od8EW00QqtXBnwcf6tLA8uohGRB3Oly0qVjiTai90Fy85f+lgxdNOPCWwJ/yt1QSoG7qlp9QdB04t89/1O/w1cDnyilFU=")
-handler = WebhookHandler("d0b0433b07bf679eff81a4984609fa0e")
+line_bot_api = LineBotApi(Channel_access_token)
+handler = WebhookHandler(Channel_secret)
 
 
 def push():
